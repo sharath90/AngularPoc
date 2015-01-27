@@ -1,0 +1,19 @@
+{
+  "name": "AngularPoc",
+  "version": "1.0.0",
+  "description": "Sample angular project",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "1.2.0",
+    "angular": "1.2.0",
+    "angular-route": "1.2.0"
+  }
+}

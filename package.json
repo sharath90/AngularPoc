@@ -1,0 +1,23 @@
+{
+  "name": "AngularPoc",
+  "version": "1.0.0",
+  "description": "A sample angular project",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jasmine-core": "^2.1.3",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "^0.0.4",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "karma start karma.conf.js",
+    "start": "node server.js"
+  },
+  "author": "Sharath",
+  "license": "MIT"
+}

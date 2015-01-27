@@ -1,0 +1,17 @@
+ 
+ <h2>Customers</h2>
+ 
+ <input ng-model="customerSearchText" type="text" placeholder="Search for customer's Name or City"/>
+
+ <table class="customers_grid">
+ 	<tbody>
+ 		<tr>
+ 			<th>Name</th>
+ 			<th>City</th>
+ 		</tr>
+ 		<tr ng-repeat="customer in customers | searchFor:customerSearchText">
+ 			<td>{{customer.Name}}</td>
+ 			<td>{{customer.City}}</td>
+ 		</tr>
+ 	</tbody>
+ </table>
